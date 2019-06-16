@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-v1
+data:
+  index.html: |
+    <html><body>
+    <p>Hello, World!</p>
+    <p><b>This is production!</b></p>
+    </body></html>
