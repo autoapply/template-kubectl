@@ -1,2 +1,2 @@
 #!/bin/sh
-cat autosetup.yaml | docker run --rm autoapply/autosetup:latest -
+cat autosetup.yaml | docker run --rm -i autoapply/autosetup:latest -
