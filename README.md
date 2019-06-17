@@ -1,6 +1,8 @@
 # template-kubectl
 
-Template repository with example data for using autoapply with kubectl.
+Template repository with example data for using [autoapply](https://github.com/autoapply/autoapply) with kubectl.
+
+>This is a _template repository_. To create a clean copy of the repository, click [Use this template](https://github.com/autoapply/template-kubectl/generate)
 
 To try it out, make sure you are connected to the correct Kubernetes cluster:
 
