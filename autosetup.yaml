@@ -1,12 +1,9 @@
 git:
   url: "https://github.com/autoapply/template-kubectl.git"
-  path:
-    - "common"
-    - "dev"
 secrets:
   gpg: |
     -----BEGIN PGP PRIVATE KEY BLOCK-----
-    
+
     lQOXBF0XaMUBCADOE9jWQ7PwwT+Dlb6SnRsaff9FkAusFORfpqWSS2DCkxJPZLOK
     dfM5RAqVCLq+O2NvESkaB/BOyb7ylMu/8gPHXuRIigyVLPLs2C8fEV+WPMoqTBj1
     YnffimY3DCs6JfCXk5+PlGP99niqeVaB6hSQt26O/8vtFGqqWOrY6P8JRrUwMUBX
@@ -69,3 +66,6 @@ secrets:
     - "YTTPuBT2O0w4YlhgMMRyYgiHwlPhRgCB"
 kubernetes:
   namespace: "autoapply-test"
+  paths:
+    - "common"
+    - "dev"
